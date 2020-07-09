@@ -403,3 +403,113 @@ for restaurant in RESTAURANTS:
     if LOCAL in response.text.lower() and restaurant not in LOCAL_RESTAURANTS:
         print("\t", restaurant)
         LOCAL_RESTAURANTS.append(restaurant)
+
+# vabarros@hunb518:~/Documents/python-notes$ python3 crawler.py
+# Opções em "barra da tijuca":
+#          4&5 bar
+#          AZZURRA
+#          Aconchego Carioca - Shopping Village Mall
+#          Adega Santiago Barra da Tijuca
+#          B de Burger (Jardim Botânico)
+#          BAR DO ADÃO GRAJAÚ
+#          BUTECO ORIGINAL
+#          Balada Mix Arpoador
+#          Balada Mix Downtown
+#          Bar Tio Ruy
+#          Bar do Gil
+#          Bar399
+#          Barril 8000 Valqueire
+#          Benevenuto
+#          Berê Burger
+#          Bistrô Rio’s
+#          Boteco do Seu João Hamburgueria
+#          Braseiro da Praia
+#          Braz Rio
+#          Brewteco
+#          Brows Casual Food
+#          Buena Vida Social Clube
+#          Burgers
+#          CARIOCA BAR E BOTEQUIM
+#          CASA URICH
+#          Cam On Thai Food
+#          Capelinha
+#          Chef dos Sabores
+#          Choperia Brahma Número 1
+#          Costelas
+#          Cozi Bistrô + Bar
+#          Curadoria
+#          DE SEMPRE BAR
+#          DOC Ristorante
+#          Da Silva
+#          Dale! Mexicano - Aerotown
+#          Doc Bistro
+#          Dom Marvim
+#          Ella
+#          Espaço A
+#          Fazenda Culinária
+#          Ferrari Praia Bar e Lanchonete Ltda.
+#          Figs&Co
+#          Forneria Tropical
+#          Fresh & Good Restaurante
+#          GRAVIOLA COMERCIO DE ALIMENTOS E BEBIDAS
+#          Gabbiano Ristorante
+#          Gela Goela
+#          Gioia Cucina Italiana
+#          Gran Parrilla
+#          Gruta do bacalhau
+#          Hansl restaurante
+#          Heaven Cucina
+#          Hell's Burguer - Barra da Tijuca
+#          Hula Hula Beach Bar
+#          In House Café-Bistrô
+#          Ki Culinária Japonesa
+#          Kioske leal e Almeida
+#          La Nostra TRATTORIA
+#          La Parrilla del Mercado
+#          La Plancha - Casa Shopping
+#          Le Boucher - Leblon
+#          LeBonTon Shopping Tijuca
+#          Los Frick Mexican Restaurant
+#          Mais japa
+#          Make a Cake
+#          Maracuyá da Ilha
+#          Massa
+#          Mensateria Portucale
+#          Minimok Ipanema
+#          Moreno
+#          Mr. Maki - Shopping Millennium
+#          NONNA per Heaven
+#          O Templo
+#          PAPPA JACK COPACABANA
+#          Paraíso Beach Club
+#          Parrilla Uruguai - Tijuca
+#          Pobre Juan - Barra da Tijuca
+#          Praiô Beach Point
+#          Praticita
+#          Prize Burger
+#          Quiosque Barra 1
+#          Quiosque Samba social clube
+#          Quiosque do Gaucho
+#          Rainbow
+#          Rei do Bacalhau
+#          Restaurante Be Vegan
+#          Restaurante Pobre Juan - Barra da Tijuca
+#          Rio Point
+#          Royal Grill
+#          Sabor de Café
+#          Spud Club
+#          SuSHiTeN
+#          Tasca Filho d'Mãe
+#          Tragga - Barra da Tijuca
+#          Tragga - FashionMall
+#          Tragga - Humaitá
+#          Up do Sabor
+#          Venne Gastronomia Mediterrânea
+#          Vezpa Barra
+#          Vezpa Novo Leblon
+#          Via 11
+#          Vizinhando Crystal Mall
+#          Vizinhando Uptown
+#          Vizinho Gastrobar
+#          Yámã Burger Vibration
+#          k 08 club

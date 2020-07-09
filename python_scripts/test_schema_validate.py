@@ -2,18 +2,18 @@ from jsonschema import validate
 
 schema = {
     "type": "object",
-    "properties":{
-        "quote":{
+    "properties": {
+        "quote": {
             "type": "string"
         },
-        "status":{
+        "status": {
             "type": "integer"
         },
-        "extra":{
+        "extra": {
             "type": "integer"
         }
     },
-    "oneOf":[
+    "oneOf": [
         {"required": ["extra", "status"]},
         {"required": ["extra", "quote"]}
     ]
