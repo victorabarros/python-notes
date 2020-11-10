@@ -1,0 +1,1 @@
+docker exec -it python-notes-debug bash -c "telnet localhost 9995"
